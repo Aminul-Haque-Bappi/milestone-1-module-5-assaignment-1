@@ -61,9 +61,10 @@ body {
 .my-mission-types {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 100px;
 }
 .mission-types {
-  width: 20%;
+  width: 25%;
   padding: 20px 20px;
   border-radius: 15px;
 }
@@ -103,6 +104,7 @@ body {
 }
 .develop-right {
   width: 40%;
+  margin-right: 100px;
 }
 .develop-heading {
   font-size: 45px;
@@ -115,7 +117,7 @@ body {
   padding: 100px 0;
   background-image: url(./img/shapes/shape-1.png);
   background-repeat: no-repeat;
-  background-position: 1180px 500px;
+  background-position: 1220px 470px;
   background-size: 200px;
 }
 .global-community-left {
@@ -124,7 +126,7 @@ body {
 }
 .global-community-right {
   width: 35%;
-  margin-right: 130px;
+  margin-right: 100px;
 }
 .global-community-right img {
   width: 90%;
@@ -142,17 +144,14 @@ body {
 .contact-sec-left {
   width: 60%;
   margin-left: 130px;
-  background-image: url(./img/shapes/shape-7.png);
-  background-position: -6px 300px;
-  background-repeat: no-repeat;
-  background-size: 250px;
   background-image: url(./img/shapes/shape-9.png);
-  background-position: 100px 80px;
+  background-position: 180px 140px;
   background-repeat: no-repeat;
   background-size: 250px;
 }
 .contact-sec-left img {
-  width: 50%;
+  width: 60%;
+  margin-top: 35px;
 }
 .contact-sec-right {
   width: 40%;

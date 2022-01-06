@@ -1,8 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "The Nautigal", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
-/* stay-focused left-sec============================================================= */
+/* stay-focused left-sec============================================================ */
 .stay-focused {
   display: flex;
   justify-content: space-around;
@@ -83,7 +88,7 @@ body {
 .develop-sec {
   display: flex;
   justify-content: space-around;
-  margin: 100px 0px;
+  margin: 50px 0px;
 }
 .develop-left {
   width: 35%;
@@ -94,7 +99,7 @@ body {
 .develop-left img {
   width: 90%;
   margin-top: 20px;
-  margin-left: 116px;
+  margin-left: 100px;
 }
 
 .develop-right {
@@ -103,4 +108,95 @@ body {
 .develop-heading {
   font-size: 45px;
   font-weight: 900;
+}
+/* global community sec============================================================ */
+.global-community {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 0;
+  background-image: url(./img/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: 1180px 500px;
+  background-size: 200px;
+}
+.global-community-left {
+  width: 40%;
+  margin-left: 130px;
+}
+.global-community-right {
+  width: 35%;
+
+  margin-right: 130px;
+}
+.global-community-right img {
+  width: 90%;
+  margin-top: 20px;
+}
+/* contact sec===================================================================== */
+.contact-heading {
+  text-align: center;
+}
+.contact-sec {
+  /* background-image: url(./img/pictures/584-5844559_graphic-of-app-interface-user-interface.png);
+  background-size: 600px;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 1000px;
+  background-position: 1000px 0px; */
+  display: flex;
+  background-color: #ffeeee;
+  padding: 50px 10px;
+}
+.contact-sec-left {
+  width: 60%;
+  margin-left: 130px;
+  background-image: url(./img/shapes/shape-7.png);
+  background-position: -6px 300px;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-image: url(./img/shapes/shape-9.png);
+  background-position: 100px 80px;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+
+.contact-sec-left img {
+  width: 50%;
+}
+.contact-sec-right {
+  width: 40%;
+  margin-right: 160px;
+  margin-top: 30px;
+  padding: 30px 20px;
+}
+.contact-sec-right img {
+  width: 90%;
+  border-radius: 25px;
+}
+.contact-sec-right:hover {
+  box-shadow: 10px 25px 40px grey;
+  transition: 0.4s;
+}
+.contact-sec-heading {
+  text-align: center;
+  font-size: 30px;
+  color: #eb5252;
+}
+.my-mission-heading span {
+  color: #ffad5a;
+}
+/* footer====================================================================== */
+.main-footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #0b0d17;
+}
+.main-footer p {
+  color: white;
+}
+.main-footer h1 {
+  color: white;
+}
+.main-footer span {
+  color: #ff5959;
 }

@@ -11,6 +11,7 @@ body {
 .stay-focused {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 140px;
 }
 .stay-focused-left {
   width: 30%;
@@ -74,7 +75,6 @@ body {
   font-size: 18px;
   line-height: 22px;
 }
-
 .bg-1 {
   background-color: #edf5f6;
 }
@@ -88,7 +88,7 @@ body {
 .develop-sec {
   display: flex;
   justify-content: space-around;
-  margin: 50px 0px;
+  margin: 100px 0px;
 }
 .develop-left {
   width: 35%;
@@ -101,7 +101,6 @@ body {
   margin-top: 20px;
   margin-left: 100px;
 }
-
 .develop-right {
   width: 40%;
 }
@@ -113,7 +112,7 @@ body {
 .global-community {
   display: flex;
   justify-content: space-around;
-  padding: 150px 0;
+  padding: 100px 0;
   background-image: url(./img/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: 1180px 500px;
@@ -125,7 +124,6 @@ body {
 }
 .global-community-right {
   width: 35%;
-
   margin-right: 130px;
 }
 .global-community-right img {
@@ -137,12 +135,6 @@ body {
   text-align: center;
 }
 .contact-sec {
-  /* background-image: url(./img/pictures/584-5844559_graphic-of-app-interface-user-interface.png);
-  background-size: 600px;
-  background-repeat: no-repeat;
-  width: 600px;
-  height: 1000px;
-  background-position: 1000px 0px; */
   display: flex;
   background-color: #ffeeee;
   padding: 50px 10px;
@@ -159,7 +151,6 @@ body {
   background-repeat: no-repeat;
   background-size: 250px;
 }
-
 .contact-sec-left img {
   width: 50%;
 }
